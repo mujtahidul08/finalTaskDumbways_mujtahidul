@@ -10,7 +10,7 @@ function sortArray(arr) {
                 minIndex = j;
             }
         }
-        // Swap jika diperlukan
+        // Swap 
         if (minIndex !== i) {
             [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
         }

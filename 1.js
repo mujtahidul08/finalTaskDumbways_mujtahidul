@@ -6,7 +6,7 @@ function totalInvestmentAfterTwoYears() {
     const deposito = 350000000; // 350 juta di deposito
     const obligasi = 650000000 * 0.3; // 30% dari 650 juta ke obligasi
     const sahamA = 650000000 * 0.35; // 35% dari 650 juta ke saham A
-    const sahamB = 650000000 * 0.35; // Sisanya (35%) ke saham B
+    const sahamB = 650000000 * 0.35; // Sisanya 35% dari 650 ke saham B
 
     // Persentase keuntungan per tahun
     const depositoRate = 3.5 / 100;
@@ -27,5 +27,4 @@ function totalInvestmentAfterTwoYears() {
     console.log(`Total uang investor setelah dua tahun adalah: Rp${totalInvestment}`);
 }
 
-// Memanggil fungsi
 totalInvestmentAfterTwoYears();

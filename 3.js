@@ -22,5 +22,4 @@ function cetakPola(n) {
     }
 }
 
-// Memanggil fungsi dengan input 5
 cetakPola(5);
